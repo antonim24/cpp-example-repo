@@ -6,3 +6,5 @@
 #
 
 add_executable(example-cli example-cli.cpp)
+
+target_link_libraries(example-cli PRIVATE core)

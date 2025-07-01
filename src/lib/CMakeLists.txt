@@ -5,7 +5,7 @@
 #
 
 # Add a shared library called core
-add_library(core SHARED)
+add_library(core SHARED core.cpp)
 
 # Add the include path for this library
-tar
+target_include_directories(core PUBLIC ${CMAKE_SOURCE_DIR}/include)

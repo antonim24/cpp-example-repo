@@ -7,10 +7,17 @@
  *
  */
 
-#include <iostream>
+#include <string>
 
 namespace example_repo {
 
+/**
+ * Console Logging Class.
+ *
+ * This class logs all messages to the console instead of a file.
+ *
+ * @class ConsoleLogger core.hpp "example-repo/core.hpp"
+ */
 class ConsoleLogger {
 public:
 
@@ -33,7 +40,5 @@ public:
     void LogError(const std::string& kMessage);
 
 };
-
-
 
 }
